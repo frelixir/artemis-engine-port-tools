@@ -68,6 +68,13 @@
         
         地址：https://github.com/hokejyo/VisualNovelUpscaler
 
+（7）下载文件说明：
+
+备份：Artemis engine的SDK
+
+KZJJ00001:psvita 平台的模板游戏
+
+注意：pc平台要开启播放mp4的功能需要安装文件里面的补丁包！！切记！！
 
 
 
