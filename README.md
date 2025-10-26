@@ -32,9 +32,21 @@
           
         （4）cmd打开ArtemisEngineAndroid目录，运行命令
         
-          gradlew.bat clean build --stacktrace
-          
-        （5）在build目录下找到输出的apk文件，安装测试即可，建议使用谷歌默认的安装器，一些国产安卓app安装器会拦截安装包的安装，因为没有验证
+          cmd打开ArtemisEngineAndroid目录，运行命令
+
+                构建调试版本（用于开发测试）：
+                .\gradlew.bat clean assembleDebug --offline --stacktrace
+        
+                构建发行版本（带签名，用于正式发布）：
+                .\gradlew.bat clean assembleRelease --offline --stacktrace
+
+
+        （5）.在build目录下找到输出的apk文件：
+        
+        - 调试版本：app\build\outputs\apk\debug\app-debug.apk
+        
+        - 发行版本：app\build\outputs\apk\release\app-release.apk
+
 
 （2）asb解密查看：
 
